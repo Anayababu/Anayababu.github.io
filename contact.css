@@ -1,0 +1,122 @@
+@import url('https://fonts.googleapis.com/css?family=Poppins:400,500,600,700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Langar&family=Poppins:ital,wght@0,400;1,700;1,800&family=Ubuntu:ital,wght@1,700&display=swap');
+
+    *{
+        margin: 0;
+        padding: 0;
+        color: black
+       
+        left: 4cm;
+       
+      }
+
+.max-width{
+    max-width: 1000px;
+    padding: 0  80px;
+    margin: auto;
+}
+
+.navbar{
+    position: fixed;
+    width: 100%;
+    padding: 3px 0;
+    background: rgb(129, 133, 123);
+    font-family:'langar',cursive ;
+    
+}
+.navbar .max-width{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+  
+}
+.navbar .logo {
+  
+    color:rgba(40, 201, 80, 0.856);
+    font-size: 45px;
+    font-weight: 450;
+    
+}
+.navbar .logo span{
+    color: rgb(243, 73, 73);
+
+}
+.navbar .menu li {
+    list-style: none;
+    display: inline-block;
+    
+ 
+  
+}
+.navbar .menu li a{
+  color: rgb(2, 2, 3);
+  font-size: 18px;
+  font-weight: 500;
+  margin-left: 20px;
+  transition: color 0.3s ease;
+  
+}
+.navbar .menu li a:hover{
+    color: rgb(94, 60, 214);
+}
+
+.center .content .fas{
+  
+  font-size: 1.4375rem;
+  background: rgb(151, 163, 163);
+  height: 45px;
+  width: 45px;
+  line-height: 45px;
+  text-align: center;
+  border-radius: 50%;
+  transition: 0.3s;
+  
+}
+  
+ 
+  
+  .center .content .fas:hover{
+    background: rgb(240, 217, 217);
+  }
+  .center .content .text{
+    color: black;
+    font-size: 1.0625rem;
+    font-weight: 800;
+    padding-left: 10px;
+  }
+  .center .content .phone{
+    margin: 15px 0;
+  }
+  
+  .right form input, .right form .msgForm{
+    width: 100%;
+    font-size: 1.0625rem;
+    background: #ccabab;
+    padding-left: 10px;
+    border: 1px solid #222222;
+  }
+ 
+  
+  .right form .btn button{
+    height: 40px;
+    width: 100%;
+    border: none;
+    outline: none;
+    background: #f12020;
+    font-size: 1.0625rem;
+    font-weight: 500;
+    cursor: pointer;
+    transition: .3s;
+  }
+
+  
+    .link ul a
+    {
+        display:block;
+        width:108px;
+        height:65px;
+        text-indent:-9999px;
+        background-repeat:no-repeat;
+        background-position:0 0;
+        opacity:0.85;transition-duration:0.3s;transition-property:opacity
+     }
